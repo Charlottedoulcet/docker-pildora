@@ -1,0 +1,18 @@
+# Python
+back/.venv/
+__pycache__/
+*.pyc
+
+# Runtime data (local to each machine)
+back/auth.ini
+back/taximetro.db
+back/taximetro.log
+back/rides_history.csv
+
+# Front
+front/node_modules/
+front/dist/
+front/.vite/
+
+# Personal study guides — kept local, never pushed
+docs/guide/
