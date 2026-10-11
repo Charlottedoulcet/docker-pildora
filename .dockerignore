@@ -1,0 +1,11 @@
+.git
+**/__pycache__
+**/*.pyc
+back/.venv
+back/taximetro.db
+back/auth.ini
+back/taximetro.log
+back/rides_history.csv
+front/node_modules
+front/dist
+docs
