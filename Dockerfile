@@ -7,7 +7,7 @@ COPY front/ .
 RUN npm run build
 
 # Stage 2: final image (Python only, no Node)
-FROM python:3.13-slim
+FROM python:3.12-slim
 WORKDIR /app
 COPY back/requirements.txt back/requirements.txt
 RUN pip install --no-cache-dir -r back/requirements.txt
